@@ -1,0 +1,10 @@
+# Install torch/torchvision separately (setup_windows.ps1 does this with the CPU build).
+# On Colab/WSL with a GPU, torch is already installed or use the CUDA index from pytorch.org.
+ultralytics>=8.3
+opencv-python
+numpy
+scipy
+motmetrics
+evo
+onnx
+onnxruntime

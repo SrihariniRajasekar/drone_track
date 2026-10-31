@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dronetrack_tracking</name>
+  <version>0.1.0</version>
+  <description>ByteTrack + Kalman tracking node for DroneTrack</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>vision_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

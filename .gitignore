@@ -1,0 +1,24 @@
+# environments and caches
+.venv/
+.cache/
+__pycache__/
+*.pyc
+
+# large data and model files (keep out of git)
+data/
+weights/
+runs/
+*.pt
+*.onnx
+*.engine
+*.zip
+
+# ROS 2 build output
+build/
+install/
+log/
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
